@@ -10,7 +10,7 @@ function getnumber(){
 }
 function showImg(number){
     const img = new Image();
-    img.src = `/starpageEX/image/${number+1}.jpg`
+    img.src = `https://bamtole.github.io/starpageEX/image/${number+1}.jpg`
     body.append(img)
 
 }
