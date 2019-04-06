@@ -2,7 +2,7 @@
 navigator.geolocation.getCurrentPosition(succes, error);
 var Flat
 var Flon
-var mapContainer = document.querySelector(".location");
+var mapContainer = document.querySelector(".container");
 
 var options = {
     center: new daum.maps.LatLng(Flat,Flon),
@@ -10,7 +10,7 @@ var options = {
 
 };
 
-var map = new daum.maps.Map(container, options);
+var map = new daum.maps.Map(mapContainer, options);
 function succes(position){
     this.lat = position.coords.latitude;
     this.lon = position.coords.longitude;
