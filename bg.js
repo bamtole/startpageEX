@@ -10,7 +10,7 @@ function getnumber(){
 }
 function showImg(number){
     const img = new Image();
-    img.src = `./image/${number+1}.jpg`
+    img.src = `.image/${number+1}.jpg`
     body.append(img)
 
 }
